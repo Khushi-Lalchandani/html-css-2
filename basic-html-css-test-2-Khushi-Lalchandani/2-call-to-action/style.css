@@ -1,0 +1,69 @@
+/* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.cta {
+  max-width: 120rem;
+  margin: 10rem;
+
+  font-family: "sans-serif";
+  width: 60%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.831);
+  background-color: #212140;
+  border-radius: 10px;
+}
+.cta-img {
+  height: auto;
+  width: 150rem;
+  margin-right: 6.4rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cta-section {
+  display: flex;
+}
+.cta1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.2rem;
+  margin-bottom: 6.4rem;
+}
+.cta-header {
+  margin-top: 6.4rem;
+  margin-bottom: 0.4rem;
+  color: #896ae3e5;
+  font-weight: bolder;
+}
+.cta-main-header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+.cta-text {
+  color: #999;
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+}
+.cta-btn {
+  width: 50%;
+  height: auto;
+  color: white;
+  background-color: #565252;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.cta-btn:hover {
+  cursor: pointer;
+  background-color: #706969;
+  border: 1px solid rgba(0, 0, 0, 0.831);
+}

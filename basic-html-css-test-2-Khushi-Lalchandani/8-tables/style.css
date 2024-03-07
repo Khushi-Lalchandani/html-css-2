@@ -1,0 +1,75 @@
+/* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+.main {
+  max-width: 120rem;
+  padding: 3.2rem;
+}
+.header {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+.nav-text {
+  font-size: 1.8rem;
+  color: #555;
+  font-weight: 500;
+}
+.nav-btn {
+  width: 10%;
+  padding: 0.8rem;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(86, 60, 204);
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.nav-btn:hover {
+  cursor: pointer;
+  background-color: rgb(115, 92, 219);
+}
+/* TABLE SECTION */
+table {
+  border-collapse: collapse;
+}
+thead {
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.01);
+  border-bottom: 1px solid rgb(213, 209, 209);
+}
+td,
+th {
+  border-bottom: 1px solid rgb(213, 209, 209);
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.01);
+  padding: 1.8rem 3.2rem;
+  text-align: left;
+  font-size: 1.8rem;
+}
+tr td {
+  color: #777;
+}
+thead th {
+  width: 25%;
+}
+/* LINK SECTION */
+a {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

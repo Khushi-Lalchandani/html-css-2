@@ -1,0 +1,102 @@
+/* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+.main {
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #fff, #f8e5fc);
+}
+.other {
+  display: flex;
+  flex-direction: column;
+}
+.main-header {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  margin-left: 4.8rem;
+}
+.subheader {
+  color: #666;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 3.2rem;
+}
+.name {
+  display: flex;
+  gap: 3.2rem;
+}
+.f_name,
+.l-name {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+.fname,
+.lname,
+.company,
+.email,
+.pno {
+  margin-bottom: 1.8rem;
+  width: 100%;
+  border: 1px solid #e4dfdf;
+  padding: 0.8rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.msg {
+  margin-bottom: 1.8rem;
+  width: 100%;
+  border: 1px solid #e4dfdf;
+  padding: 0.8rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 8rem;
+}
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+.toggle {
+  font-size: 2.4rem;
+  margin-right: 1.2rem;
+}
+.p-p {
+  font-size: 1.4rem;
+  color: #777;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.btn {
+  width: 100%;
+  padding: 1rem;
+  background-color: #6d26c9;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 16px rgb(215, 212, 212);
+}

@@ -1,0 +1,185 @@
+/* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+.main {
+  padding: 3.2rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 300px 0 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 4.8rem;
+}
+.wave {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-bottom: 1.2rem;
+  margin-left: 16rem;
+}
+.main-header {
+  font-size: 1.8rem;
+  letter-spacing: 0.01px;
+  margin-left: 8rem;
+}
+/* SECTION DETAILS */
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.em,
+.pas {
+  display: flex;
+  flex-direction: column;
+}
+.e-mail,
+.pass-word {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.pass,
+.email {
+  margin-bottom: 1.6rem;
+  width: 200%;
+  padding: 0.2rem;
+  border: 1px solid #dcd7d7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+  border-radius: 4px;
+}
+.pass:hover,
+.email:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Topics */
+.topics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.box {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #dcd7d7;
+  margin-right: 0.6rem;
+  border-radius: 2px;
+}
+.rem {
+  font-size: 1rem;
+  margin-right: 16rem;
+}
+.forget {
+  text-decoration: none;
+}
+.forget:hover {
+  text-decoration: underline;
+}
+/* Sign in button */
+.sign-in {
+  width: 100%;
+  padding: 0.6rem;
+  color: #fff;
+  background-color: rgb(92, 33, 202);
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 3.2rem;
+  transition: all 0.3s;
+}
+.sign-in:hover {
+  background-color: rgb(111, 60, 206);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(111, 60, 206, 0.1);
+}
+/* Line section */
+.line {
+  display: flex;
+  gap: 1.6rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+.bor {
+  color: #999;
+}
+
+.line-text {
+  font-weight: bold;
+}
+/* BUTTON SECTI0N */
+.cta {
+  display: flex;
+  gap: 1.4rem;
+}
+.btn {
+  display: flex;
+  width: 100%;
+  gap: 1.4rem;
+  padding: 0.6rem;
+  border-radius: 7px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6.4rem;
+}
+.github-logo,
+.twitter-logo {
+  color: white;
+}
+.twitter {
+  color: white;
+  font-size: 1.2rem;
+  background-color: #55acee;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.01);
+}
+.twitter:hover {
+  background-color: #6db4ea;
+}
+.github {
+  color: white;
+  font-size: 1.2rem;
+  background-color: black;
+}
+.github:hover {
+  background-color: #2e2d2d;
+}
+/* FOOTER SECTION */
+.aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 3.2rem;
+  width: 40rem;
+  margin: 0 300px;
+}
+.aside-text {
+  color: #777;
+  font-size: 1rem;
+}
+.aside-link {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.aside-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,137 @@
+/* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 62.5%;
+  color: #333;
+}
+.main {
+  max-width: 120rem;
+  padding: 3.2rem;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+.main-header {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+.main-text {
+  color: #555;
+  font-size: 1.2rem;
+  letter-spacing: 0.4px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.5;
+}
+/* CARD SECTION */
+.card1,
+.card2,
+.card3 {
+  width: 300px;
+  padding: 2.4rem;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  cursor: pointer;
+  transform: translateY(-1.6%);
+  background-color: #fffdfd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-section {
+  padding: 3.2rem;
+}
+.list {
+  list-style: none;
+}
+.cards {
+  display: flex;
+
+  justify-content: flex-start;
+  gap: 9.6rem;
+}
+.card1-header {
+  font-size: 1.6rem;
+  margin-bottom: 1.8rem;
+  font-weight: bold;
+}
+.dollar,
+.price {
+  font-size: 3.2rem;
+  font-weight: bolder;
+  margin-bottom: 1.8rem;
+}
+.month {
+  color: #777;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.price-details {
+  color: #888;
+  font-size: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+.btn {
+  width: 20rem;
+  padding: 0.8rem;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(93, 40, 226);
+  border: none;
+  margin-bottom: 2.4rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(114, 66, 235);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+  transform: translateY(-12%);
+}
+.card-details {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-bottom: 1.8rem;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+}
+.properties {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.8rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+  color: #777;
+  margin-bottom: 1.4rem;
+}
+.tick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(93, 40, 226);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  height: 1.8rem;
+  width: 1.8rem;
+  font-weight: bold;
+}
